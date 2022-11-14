@@ -1,0 +1,76 @@
+.firstdiv {
+  background-color: rgba(138, 111, 111, 0.250);
+
+  
+}
+
+.divRegister {
+
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  top: 15%;
+  left: 23%;
+  background-color: rgba(111, 138, 120, 0.45);
+
+  
+}
+#formLogin {
+
+  
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+}
+
+#formRegister {
+
+  
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+}
+
+#flexCheckDefault {
+
+ top: -35%;
+
+}
+input {
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  height: 35px;
+  border: none;
+  margin-left:.5rem;
+  padding-left: 10px;
+  background-color: rgba(240, 240, 240);
+  flex:1 0;
+}
+
+form{
+position: relative;
+width: 85%;
+left:   5%;
+top: 3%;
+
+
+}
+body {
+
+  background-image:url("\image.png");
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+ }
+
+
